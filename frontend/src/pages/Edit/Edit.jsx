@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 
 const Edit = () => {
-  const url = "http://localhost:4000";
+  const url = "https://admin-q79d.onrender.com";
   const [image, setImage] = useState(null);
   const [previewImage, setPreviewImage] = useState("");
   const [employeeId, setEmployeeId] = useState("");
