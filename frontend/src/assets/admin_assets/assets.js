@@ -13,4 +13,5 @@ export const assets ={
     upload_area,
     parcel_icon
 }
+export const url="https://admin-q79d.onrender.com";
 
