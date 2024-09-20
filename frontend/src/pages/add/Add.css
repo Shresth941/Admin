@@ -1,0 +1,126 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f2fe; 
+    padding: 1rem; 
+  }
+  
+  .logo-and-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem; 
+  }
+  
+  .nav-links a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #3b82f6; 
+  }
+  
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  
+  .create-employee-header {
+    background-color: #fcd34d; 
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+ 
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-top: 2rem; 
+  }
+  .form-group img{
+    width: 120px;
+
+  }
+  
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  .form-group {
+    margin-bottom: 1.5rem; 
+  }
+  .form-group .block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .form-group.image{
+    margin-bottom: 50px;
+
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  input[type="file"] {
+    border: 1px solid #000; 
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px; 
+  }
+  
+
+  .radio-group,
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  label {
+    margin-right: 1rem;
+  }
+  
+
+  .submit-button {
+    background-color: #4ade80; 
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .submit-button:hover {
+    background-color: #22c55e; 
+  }
+  
+  .info-section {
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: #f9fafb;
+  }
+  
