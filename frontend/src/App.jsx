@@ -5,7 +5,7 @@ import Login from "./Components/LoginPage/login"
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/navbar'
 import Home from './Components/Home/Home'
-import Header from './Components/Header/Header'
+import Header from './Components/header/header'
 import Sidebar from "./Components/sidebar/sidebar";
 import { Storecontext } from "./Context/storecontext"; 
 
