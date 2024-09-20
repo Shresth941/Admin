@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { FaTrashAlt } from "react-icons/fa";
 import "./List.css";
 
-const url = "http://localhost:4000";
+const url = "https://admin-q79d.onrender.com";
 
 const List = () => {
   const [list, setList] = useState([]);
