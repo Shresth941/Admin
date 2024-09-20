@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const EmployeeForm = () => {
-  const url = "http://localhost:4000";
+  const url = "https://admin-q79d.onrender.com";
   const [image, setImage] = useState(null);
   const [data, setData] = useState({
     name: "",
